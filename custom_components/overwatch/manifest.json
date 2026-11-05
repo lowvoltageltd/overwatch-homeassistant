@@ -1,14 +1,15 @@
 {
   "domain": "overwatch",
   "name": "Overwatch NVR",
+  "after_dependencies": ["frontend", "stream"],
+  "categories": ["security_safety.cameras"],
   "codeowners": ["@abarbarich"],
   "config_flow": true,
   "dependencies": ["http"],
-  "after_dependencies": ["frontend", "stream"],
   "documentation": "https://github.com/lowvoltageltd/overwatch-homeassistant",
   "integration_type": "hub",
   "iot_class": "local_polling",
   "issue_tracker": "https://github.com/lowvoltageltd/overwatch-homeassistant/issues",
   "requirements": [],
-  "version": "0.5.2"
+  "version": "0.5.3"
 }
